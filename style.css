@@ -129,6 +129,8 @@ button {
 .third_block {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -150,4 +152,55 @@ button {
     color: #1F2937;
     text-align: end;
     width: 700px;
+    /*Figure out why you have to set a width
+    instead of it automatically setting to as
+    wide as possible. (Setting it causes it to
+    break when making window smaller.) */
+}
+
+.fourth_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.fourth_block .background {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.fourth_block .button {
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fourth_block .left .title, .text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fourth_block .left .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fourth_block .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
