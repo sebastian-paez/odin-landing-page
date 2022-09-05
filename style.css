@@ -151,7 +151,7 @@ button {
     font-weight: bold;
     color: #1F2937;
     text-align: end;
-    width: 700px;
+    min-width: 100%;
     /*Figure out why you have to set a width
     instead of it automatically setting to as
     wide as possible. (Setting it causes it to
