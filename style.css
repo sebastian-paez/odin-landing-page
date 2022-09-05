@@ -204,3 +204,13 @@ button {
     flex-direction: column;
     gap: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 12px;
+}
