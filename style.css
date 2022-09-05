@@ -76,3 +76,48 @@ button {
     justify-content: center;
     font-weight: bold;
 }
+
+.second_block {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.second_block .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+.second_block .info .image {
+    padding: 60px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+}
+
+.second_block .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex: 1
+}
+
+.second_block .info .first, .second, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px
+}
+
+.second_block .info .subtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px
+}
