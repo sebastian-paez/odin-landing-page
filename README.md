@@ -1,2 +1,2 @@
 # odin-mock-website
-Mock landing page
+Building and designing a mock landing page
